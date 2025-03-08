@@ -1,0 +1,58 @@
+h2 {
+    color:skyblue;
+    background-color:darkblue;
+    text-align:center;
+    font-size: 5vw;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+ol {
+    background-color:royalblue;
+}
+li {
+    background-color:cornflowerblue;
+}
+
+#navbar {
+    background-color:cornflowerblue;
+    border-style:solid;
+    border-color: black;
+    border-collapse: collapse;
+    font-size: 20px;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar th {
+    border-style:solid;
+}
+.stats{
+    color: purple;
+}
+
+.profile {
+    background-color: rgb(255, 204, 0);
+    text-align: center;
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    margin-left: 60px;
+    background-color: white;
+    color: rgb(17, 40, 218);
+    padding: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.active{
+    background-color: lightcoral;
+}
+a{
+    color: navy;
+    text-decoration: none;
+}
